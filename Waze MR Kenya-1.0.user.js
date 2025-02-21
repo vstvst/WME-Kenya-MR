@@ -8,7 +8,7 @@
 // @include      https://beta.waze.com/*
 // @exclude      https://www.waze.com/*user/*editor/*
 // @grant        none
-// @namespace    https://github.com/vstvst/WME-MR-Kenya
+// @namespace    https://github.com/vstvst/WME-Kenya-MR
 // ==/UserScript==
 
 // Mini How-To:

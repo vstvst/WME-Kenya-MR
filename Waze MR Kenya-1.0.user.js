@@ -687,7 +687,7 @@ var mapFeatures = {
 };
 
 // Restore saved settings
-/*var savedSettings = localStorage.getObject('wmepmsm_ne_settings');
+/*var savedSettings = localStorage.getObject('waze-kenya-mr_settings');
 if (savedSettings !== null) {
   for (var map in savedSettings.maps) {
     if (mapFeatures[map] !== null) {
@@ -699,7 +699,7 @@ if (savedSettings !== null) {
 
 $("head").append(`
   <style>
-    .wmepmsm-ne-link-list {
+    .waze-kenya-mr-link-list {
       display: grid;
       gap: 6px;
     }
@@ -714,7 +714,7 @@ $("head").append(`
     savedSettings.maps[map] = {};
     savedSettings.maps[map].Enabled = mapObject.Enabled;
   }
-  localStorage.setObject('wmepmsm_ne_settings', savedSettings);
+  localStorage.setObject('waze-kenya-mr_settings', savedSettings);
 }, true);
 */
 

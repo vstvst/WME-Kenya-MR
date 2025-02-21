@@ -591,7 +591,7 @@ function roadregister(urlBase) {
     zoom = zoom -1;
 
     var mapsUrl =
-        "http://maps.krb.go.ke/kenya-roads-board12769/maps/144382/8-proposed-road-register-2024#zoom=" + zoom + "&lat=" + lat + "&lng= + lon + "&layergroups=krb%3A06bd8048-06e0-11ef-b655-0affd391111f%2Ckrb%3Aa35fc458-06c0-11ef-9368-0affd391111f&bck=ffffff&permalink=true";
+        "http://maps.krb.go.ke/kenya-roads-board12769/maps/144382/8-proposed-road-register-2024#zoom=" + zoom + "&lat=" + lat + "&lng=" + lon + "&layergroups=krb%3A06bd8048-06e0-11ef-b655-0affd391111f%2Ckrb%3Aa35fc458-06c0-11ef-9368-0affd391111f&bck=ffffff&permalink=true";
     window.open(mapsUrl, "_blank");
  }
 

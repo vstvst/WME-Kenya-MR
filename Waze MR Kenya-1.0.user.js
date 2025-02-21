@@ -727,12 +727,12 @@ function htmlToElement(html) {
 
 async function initializeMyUserscript() {
     const { tabLabel, tabPane } =
-        W.userscripts.registerSidebarTab("WME-MR-Kenya");
+        W.userscripts.registerSidebarTab("WME-Kenya-MR");
 
-    tabLabel.innerText = "WME-MR-Kenya";
+    tabLabel.innerText = "WME-Kenya-MR";
     tabLabel.title = "WME Permalink to Serveral Maps — Kenya MR Edition";
 
-    tabPane.classList.add("waze-mr-kenya-link-list");
+    tabPane.classList.add("waze-kenya-mr-link-list");
 
     for (const map in mapFeatures) {
         const mapObject = mapFeatures[map];
